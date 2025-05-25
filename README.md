@@ -26,7 +26,7 @@ Bu proje, 1C:Enterprise 8.5 ile Google AppSheet arasında çift yönlü veri sen
    - Personel (Text)
    - Araç Plakası (Text)
    - Ambar (Text)
-   - Doküman Statüsü (Text)
+   - Doküman Statüsü (Enum)
 
 3. **Settings → Integrations → IN** bölümünden API'yi etkinleştirin
 4. API Key'i kopyalayın
