@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="Catalog.Employees" id="d00dfe00-a252-4392-aad7-61ff90ebb3c4" configVersion="cd14dc1c792ac344862ad3f9b148c4c200000000"/>
+		<Metadata name="Catalog.Products" id="07a512a2-c93c-435e-b10e-466f35a26f7b" configVersion="3b062c25a48c6d48a61133686391f41c00000000"/>
+		<Metadata name="Catalog.Warehouses" id="1e3a2446-6a2f-4410-ae47-abb7e385e0c4" configVersion="b181e09d6d1d804fb5425b8ea7a955db00000000"/>
+		<Metadata name="CommonForm.AppSheetIntegrationForm" id="60eb8e54-3567-45d2-81b6-89e16f3724c5" configVersion="41b3b8c4edbb754aa2ae07f7a7f269bd00000000"/>
+		<Metadata name="CommonForm.AppSheetIntegrationForm.Form" id="60eb8e54-3567-45d2-81b6-89e16f3724c5.0" configVersion="23b384976f76c84986a21f018778e24e00000000"/>
+		<Metadata name="CommonModule.AppSheetIntegration" id="75104f90-571f-4563-911e-2b21cdb783cd" configVersion="3ede509a5c4d6f469388a2d1a54a5d2500000000"/>
+		<Metadata name="CommonModule.AppSheetIntegration.Module" id="75104f90-571f-4563-911e-2b21cdb783cd.0" configVersion="7f21d949dfae58439e2d876c3146344b00000000"/>
+		<Metadata name="Configuration.Configuration" id="501279fb-9508-40eb-b922-c02b1de25ce9" configVersion="a20ab197d67575478042b150bc8a158100000000"/>
+		<Metadata name="Constant.AccessKey" id="03d69a35-5e5b-4033-9c42-cd40cb8d6435" configVersion="a0a272352dcb3042a7842a2e72ef875800000000"/>
+		<Metadata name="Constant.AppID" id="a5055f3d-2260-4bb4-a765-2213eb7ba346" configVersion="1dd33f7acd34e448844124323234ea5900000000"/>
+		<Metadata name="Constant.SheetName" id="69ec06c9-376b-4bea-8bcd-77d21a55dbed" configVersion="cc83d94a93b42746b94ab9c43f8004a900000000"/>
+		<Metadata name="Document.ShipmentOrder" id="bf5a9dd8-3571-4d33-b834-df3f57b9137f" configVersion="a1dcc804aa58144facbdf3c052dfb48e00000000">
+			<Metadata name="Document.ShipmentOrder.TabularSection.Products.Attribute.Product" id="265271de-7113-495c-bcfd-b6dc612aa57b"/>
+			<Metadata name="Document.ShipmentOrder.Attribute.Employee" id="3867f0d5-65c8-4bed-9eaa-d85afedd058b"/>
+			<Metadata name="Document.ShipmentOrder.TabularSection.Products" id="3d5d90fe-00fa-402a-9bf4-0eff4ae6b44a"/>
+			<Metadata name="Document.ShipmentOrder.Attribute.Warehouse" id="5ae704f7-1b4d-4eb8-8923-1772d173f876"/>
+			<Metadata name="Document.ShipmentOrder.Attribute.Status" id="81be1eeb-4d16-4dcc-a95b-fc1c3dd6bd87"/>
+			<Metadata name="Document.ShipmentOrder.Attribute.Customer" id="950cf1cc-88fa-48b2-a7e2-1eb8fda3a7b4"/>
+			<Metadata name="Document.ShipmentOrder.TabularSection.Products.Attribute.Quantity" id="bc50135e-2c02-47f4-8477-b88c9eba27c1"/>
+			<Metadata name="Document.ShipmentOrder.Attribute.VehicleLicensePlate" id="c535059f-eecf-42b6-975b-cab2b636befe"/>
+			<Metadata name="Document.ShipmentOrder.Attribute.Address" id="d49169f6-ffcc-45c7-988f-8125099da16e"/>
+		</Metadata>
+		<Metadata name="Document.ShipmentOrder.Form.DocumentForm" id="6c89279d-a7c1-4e72-8c96-4e1353681c15" configVersion="d2fb6dba2e6995439551052777dc74bd00000000"/>
+		<Metadata name="Document.ShipmentOrder.Form.DocumentForm.Form" id="6c89279d-a7c1-4e72-8c96-4e1353681c15.0" configVersion="2934afe929eb0c4198d034194c9cb61400000000"/>
+		<Metadata name="Document.ShipmentOrder.Form.ListForm" id="0281df06-79d1-4c47-9ed7-6cb631e6ea9e" configVersion="6ed3e72139421744b2887cb5be0ae1c300000000"/>
+		<Metadata name="Document.ShipmentOrder.Form.ListForm.Form" id="0281df06-79d1-4c47-9ed7-6cb631e6ea9e.0" configVersion="e3db602688e6a54bac013fac24a8f51600000000"/>
+		<Metadata name="Enum.ShipmentOrderStatus" id="bc12c9a4-eb48-4386-b765-01810cb0765c" configVersion="74c892fc54916842a891f85a25d3bef800000000">
+			<Metadata name="Enum.ShipmentOrderStatus.EnumValue.SHIPPED" id="382006f0-7731-4bc8-ade4-dd9792765a8b"/>
+			<Metadata name="Enum.ShipmentOrderStatus.EnumValue.PROCESSING" id="4eb6907f-eb5f-44f5-93a9-57176d205027"/>
+			<Metadata name="Enum.ShipmentOrderStatus.EnumValue.NEW" id="8a777cc5-1c1a-4c93-a6e1-75a3486ff17d"/>
+			<Metadata name="Enum.ShipmentOrderStatus.EnumValue.DELIVERED" id="c3bf53da-c72b-463c-aa7b-4f3638c23f24"/>
+		</Metadata>
+		<Metadata name="Language.English" id="4a06bd82-16db-479e-b728-84a1e0f48b84" configVersion="59a64575e578614e803e872ed1fe9f5c00000000"/>
+		<Metadata name="Language.Turkish" id="703a976a-f977-494e-a252-ecacc8ff514a" configVersion="e67a95045622af41a20f44dd7eadc90600000000"/>
+		<Metadata name="Subsystem.Configuration" id="7076f6a1-bc8c-44f1-8be6-96d62751f552" configVersion="3edc2c6d2d610e4582ef49540b3fbcdb00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

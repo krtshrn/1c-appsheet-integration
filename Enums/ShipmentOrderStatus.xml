@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="bc12c9a4-eb48-4386-b765-01810cb0765c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ShipmentOrderStatus" category="Ref">
+				<xr:TypeId>53dd0ddf-80bd-4c1a-b320-f3c0fe3b8240</xr:TypeId>
+				<xr:ValueId>609b041c-d3ab-4f36-963a-6dcea26af0f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ShipmentOrderStatus" category="Manager">
+				<xr:TypeId>94b9e69a-647d-4b6f-acea-0c033421dc97</xr:TypeId>
+				<xr:ValueId>1341c62e-e11d-4fb6-8c8a-572d7b830dbb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ShipmentOrderStatus" category="List">
+				<xr:TypeId>b9105a68-6241-4dc6-a9a9-a58ac5860aba</xr:TypeId>
+				<xr:ValueId>a1c3d9e2-167c-40fb-adc9-d39f56001835</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ShipmentOrderStatus</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Shipment order status</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>tr</v8:lang>
+					<v8:content>Sevkiyat siparişi durumları</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="8a777cc5-1c1a-4c93-a6e1-75a3486ff17d">
+				<Properties>
+					<Name>NEW</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>NEW</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>tr</v8:lang>
+							<v8:content>YENİ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>style:SpecialTextColor</Color>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4eb6907f-eb5f-44f5-93a9-57176d205027">
+				<Properties>
+					<Name>PROCESSING</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>PROCESSING</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>tr</v8:lang>
+							<v8:content>İŞLEMDE</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>#FFFF00</Color>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="382006f0-7731-4bc8-ade4-dd9792765a8b">
+				<Properties>
+					<Name>SHIPPED</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>SHIPPED</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>tr</v8:lang>
+							<v8:content>KARGOLANDI</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>#99CC00</Color>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c3bf53da-c72b-463c-aa7b-4f3638c23f24">
+				<Properties>
+					<Name>DELIVERED</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>DELIVERED</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>tr</v8:lang>
+							<v8:content>TESLİM EDİLDİ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>#339966</Color>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

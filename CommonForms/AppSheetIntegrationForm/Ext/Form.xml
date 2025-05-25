@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<AutoCommandBar name="FormCommandBar" id="-1"/>
+	<ChildItems>
+		<InputField name="AppID" id="1">
+			<DataPath>ConstantsSet.AppID</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="AppIDContextMenu" id="2"/>
+			<ExtendedTooltip name="AppIDExtendedTooltip" id="3"/>
+			<SelectedItemsActionsPanel name="AppIDSelectedRowsActionsPanel" id="4"/>
+		</InputField>
+		<InputField name="AccessKey" id="5">
+			<DataPath>ConstantsSet.AccessKey</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="AccessKeyContextMenu" id="6"/>
+			<ExtendedTooltip name="AccessKeyExtendedTooltip" id="7"/>
+			<SelectedItemsActionsPanel name="AccessKeySelectedRowsActionsPanel" id="8"/>
+		</InputField>
+		<InputField name="SheetName" id="9">
+			<DataPath>ConstantsSet.SheetName</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="SheetNameContextMenu" id="10"/>
+			<ExtendedTooltip name="SheetNameExtendedTooltip" id="11"/>
+			<SelectedItemsActionsPanel name="SheetNameSelectedRowsActionsPanel" id="12"/>
+		</InputField>
+		<CheckBoxField name="EnableAppSheetSync" id="13">
+			<DataPath>1/0:1eacd209-c4a8-412f-810b-1c050d131445</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="EnableAppSheetSyncContextMenu" id="14"/>
+			<ExtendedTooltip name="EnableAppSheetSyncExtendedTooltip" id="15"/>
+			<SelectedItemsActionsPanel name="EnableAppSheetSyncSelectedRowsActionsPanel" id="16"/>
+		</CheckBoxField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ConstantsSet" id="1">
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
