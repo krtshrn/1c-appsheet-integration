@@ -14,7 +14,6 @@ Bu proje, 1C:Enterprise 8.5 ile Google AppSheet arasında çift yönlü veri sen
 
 - 1C:Enterprise 8.5 veya üzeri
 - Google AppSheet hesabı ve API erişimi
-- SSL/HTTPS desteği
 
 ## Kurulum
 
